@@ -18,7 +18,7 @@ This is Faq-accordion card page
 
 ### Links
 
-- Live Site URL: [FAQ-accordion-page](https://olegbobokhidze.github.io/E-commerce-page/)
+- Live Site URL: [FAQ-accordion-page](https://olegbobokhidze.github.io/faq-accordion/)
 
 
 ### Built with
