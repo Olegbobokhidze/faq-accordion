@@ -1,0 +1,148 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&family=Outfit:wght@500;700&family=Space+Mono:wght@700&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: linear-gradient(180deg, #b068e9 0%, #6463e7 100%);
+  width: 100vw;
+  height: 100vh;
+  display: Flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Kumbh Sans", sans-serif;
+}
+header {
+  display: Flex;
+  justify-content: center;
+  margin-top: 100px;
+  color: #1e1f36;
+  font-weight: 700;
+}
+section {
+  background-color: white;
+  width: 327px;
+  height: 515px;
+  box-shadow: 0px 50px 50px -20px rgba(53, 18, 122, 0.497159);
+  border-radius: 23px;
+  display: Flex;
+  justify-content: left;
+  align-items: left;
+  flex-direction: column;
+  text-align: left;
+  margin-top: 79px;
+  position: relative;
+}
+.questions {
+  display: Flex;
+  justify-content: space-between;
+  text-align: left;
+  flex-direction: column;
+  padding: 5px;
+  margin-top: 25px;
+  width: 279px;
+  margin-left: 25px;
+}
+.questions h3 {
+  font-size: 13px;
+  color: #4b4c5f;
+  font-weight: 400;
+  margin-right: 8px;
+}
+.arrow-down {
+  width: 8px;
+  height: 4px;
+}
+.arrow-up {
+  width: 7.5px;
+  height: 5px;
+}
+.line {
+  margin-left: 25px;
+  width: 279px;
+  margin-top: 10px;
+  height: 1px;
+  background-color: #e8e8ea;
+}
+.women-mobile {
+  position: absolute;
+  top: -20%;
+  right: 14%;
+}
+.shadow-img {
+  position: absolute;
+  left: calc(50% - 240px / 2 + 0.5px);
+  top: -5px;
+  opacity: 0.5;
+}
+.women-desktop {
+  display: none;
+}
+.box {
+  display: none;
+}
+.box-img {
+  display: none;
+}
+.text-arrow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.active-text {
+  display: flex;
+  align-items: center;
+  text-align: left;
+  font-size: 12px;
+  color: #787887;
+}
+h3:hover {
+  color: #f47b56;
+  cursor: pointer;
+}
+.arrow-up {
+  display: none;
+}
+.adding-text {
+  display: none;
+  margin-top: 10px;
+}
+
+@media screen and (min-width: 1440px) {
+  section {
+    width: 920px;
+    flex-direction: row;
+    justify-content: space-around;
+    position: relative;
+  }
+  header {
+    justify-content: left;
+    margin-left: 25px;
+  }
+  .shadow-img {
+    display: none;
+  }
+  .women-mobile {
+    display: none;
+  }
+  .women-desktop {
+    display: block;
+    width: 400px;
+    height: 330px;
+    left: 0;
+    transform: translate(-13.6%);
+  }
+  .images {
+    display: Flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+  .box-img {
+    display: block;
+    position: absolute;
+    top: 41%;
+    left: -37%;
+  }
+}
